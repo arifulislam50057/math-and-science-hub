@@ -1,0 +1,102 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.6)),url(bg-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav h1{
+    color: white;
+    font-size: inline;
+    float: left;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 15px;
+    line-height: 80px;
+  }
+.text-color{
+  color: orange;
+}
+
+
+nav{
+    height: 80px;
+}
+nav ul{
+  float: right;
+  line-height: 80px;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ padding: 15px;
+}
+
+.article{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(30vh);
+  color: antiquewhite;
+}
+.article h1{
+  font-size: 36px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.button{
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 15px 35px;
+  margin: 50px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-weight: 700;
+
+}
+
+.button:hover{
+  transform: scale(1.2);
+  box-shadow:0 0 10px rgb(255, 60, 0);
+}
+
+
+
+
+.container{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  width: 50%;
+  background-image: linear-gradient(rgb(252, 250, 247), rgb(248, 217, 181));
+  padding: 40px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+
+}
+.container:hover{
+  
+  box-shadow:0 0 20px rgb(255, 60, 0);
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select{
+  width: 100%;
+  padding: 12px;
+}
+.submit-btn{
+  margin-left: 35%;
+}
