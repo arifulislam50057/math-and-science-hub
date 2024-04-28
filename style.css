@@ -4,13 +4,8 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.first{
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.6)),url(bg-photo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
+/*------------------------heading and navigation bar------------------*/
 nav h1{
     color: white;
     font-size: inline;
@@ -23,8 +18,6 @@ nav h1{
 .text-color{
   color: orange;
 }
-
-
 nav{
     height: 80px;
 }
@@ -50,6 +43,17 @@ nav ul li{
   color: antiquewhite;
 }
 
+
+/*--------------background decoration------------- */
+.first{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.6)),url(bg-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*--------------------------Button---------------------*/
 .button{
   text-decoration: none;
   color: white;
@@ -71,7 +75,7 @@ nav ul li{
 }
 
 
-
+/*----------------Pre-registration Form page decoration--------------------------*/
 
 .container{
   box-sizing: border-box;
